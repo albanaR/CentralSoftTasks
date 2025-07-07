@@ -1,4 +1,3 @@
-console.log('🔍 exercise3-formValidation.js loaded');
 
 const form = document.querySelector('.email-form');
 const emailInput = form.querySelector('input[type="email"]');

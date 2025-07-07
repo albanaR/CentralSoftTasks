@@ -3,6 +3,7 @@ const exercises = [
     'exercise1-popup',
     'exercise2-spinner',
     'exercise3-formValidation',
+    'exercise4-slider'
     // …etc
   ];
   

@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Company Alpha",
+      "image": "images/companies/1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 2,
+      "name": "Company Beta",
+      "image": "images/companies/2.png",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 3,
+      "name": "Company Gamma",
+      "image": "images/companies/3.png",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+    },
+    {
+      "id": 4,
+      "name": "Company Delta",
+      "image": "images/companies/4.png",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+    },
+    {
+      "id": 5,
+      "name": "Company Epsilon",
+      "image": "images/companies/5.png",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia."
+    },
+    {
+      "id": 6,
+      "name": "Company Zeta",
+      "image": "images/companies/6.png",
+      "description": "Proin euismod, justo at dignissim pretium, sapien sapien cursus tellus."
+    },
+    {
+      "id": 7,
+      "name": "Company Eta",
+      "image": "images/companies/7.png",
+      "description": "Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero."
+    },
+    {
+      "id": 8,
+      "name": "Company Theta",
+      "image": "images/companies/8.png",
+      "description": "Curabitur ut dolor eu elit luctus commodo ac nec odio."
+    },
+    {
+      "id": 9,
+      "name": "Company Iota",
+      "image": "images/companies/9.png",
+      "description": "Integer sit amet mattis quam, sit amet ultricies tortor."
+    },
+    {
+      "id": 10,
+      "name": "Company Kappa",
+      "image": "images/companies/10.png",
+      "description": "Nullam quis risus eget urna mollis ornare vel eu leo."
+    },
+    {
+      "id": 11,
+      "name": "Company Lambda",
+      "image": "images/companies/11.png",
+      "description": "Vestibulum id ligula porta felis euismod semper."
+    },
+    {
+      "id": 12,
+      "name": "Company Mu",
+      "image": "images/companies/12.png",
+      "description": "Praesent commodo cursus magna, vel scelerisque nisl consectetur."
+    },
+    {
+      "id": 13,
+      "name": "Company Nu",
+      "image": "images/companies/13.png",
+      "description": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis."
+    },
+    {
+      "id": 14,
+      "name": "Company Xi",
+      "image": "images/companies/14.png",
+      "description": "Etiam porta sem malesuada magna mollis euismod."
+    },
+    {
+      "id": 15,
+      "name": "Company Omicron",
+      "image": "images/companies/15.png",
+      "description": "Donec ullamcorper nulla non metus auctor fringilla."
+    },
+    {
+      "id": 16,
+      "name": "Company Pi",
+      "image": "images/companies/16.png",
+      "description": "Cras mattis consectetur purus sit amet fermentum."
+    },
+    {
+      "id": 17,
+      "name": "Company Rho",
+      "image": "images/companies/17.png",
+      "description": "Sed posuere consectetur est at lobortis."
+    },
+    {
+      "id": 18,
+      "name": "Company Sigma",
+      "image": "images/companies/18.png",
+      "description": "Maecenas sed diam eget risus varius blandit sit amet non magna."
+    },
+    {
+      "id": 19,
+      "name": "Company Tau",
+      "image": "images/companies/19.png",
+      "description": "Vestibulum at eros. Nulla vitae elit libero, a pharetra augue."
+    },
+    {
+      "id": 20,
+      "name": "Company Upsilon",
+      "image": "images/companies/20.png",
+      "description": "Curabitur blandit tempus porttitor."
+    }
+  ]
+  
