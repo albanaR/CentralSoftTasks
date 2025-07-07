@@ -15,4 +15,5 @@
   
 // loader.js
 import './exercise1-popup.js';
+import './exercise2-spinner.js'
 console.log('Popup module loaded');
