@@ -1,5 +1,3 @@
-// exercise1-popup.js
-console.log('exercise1-popup.js loaded');
 
 // Create toast container
 (function createToastContainer() {
