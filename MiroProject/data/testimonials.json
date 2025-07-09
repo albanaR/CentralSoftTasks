@@ -1,0 +1,33 @@
+[
+    {
+        "brand": "VMware",
+        "logo": "images/vmware-logo.png",
+        "quote": "“When the pandemic hit, those of us who thrive on in‑person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”",
+        "author": {
+          "name": "Roxanne Mustafa",
+          "role": "Design Team Lead at VMware",
+          "avatar": "images/roxanne.png"
+        }
+      },
+    {
+      "brand": "DocuSign",
+      "logo": "images/docuSign.png",
+      "quote": "“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”",
+      "author": {
+        "name": "Jane Ashley",
+        "role": "Head of Design at DocuSign",
+        "avatar": "images/jane.png"
+      }
+    },
+    {
+      "brand": "frog",
+      "logo": "images/frogLogo.png",
+      "quote": "“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”",
+      "author": {
+        "name": "Laura Baird",
+        "role": "Associate Design Director at frog",
+        "avatar": "images/laura.png"
+      }
+    }
+  ]
+  

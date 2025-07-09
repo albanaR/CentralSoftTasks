@@ -4,7 +4,8 @@ const exercises = [
     'exercise2-spinner',
     'exercise3-formValidation',
     'exercise4-slider',
-    'exercise5-companyInfo'
+    'exercise5-companyInfo',
+    'exercise6-sortTestimonials'
   ];
   
   Promise.all(
