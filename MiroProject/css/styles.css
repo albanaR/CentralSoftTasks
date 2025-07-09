@@ -1,6 +1,9 @@
 @import url('popup.css');
 @import url('spinner.css');
 @import url('slider.css');
+@import url('companyPopup.css');
+/* @import url('sort.css'); */
+
 
 
 body {
@@ -810,6 +813,7 @@ a:hover {
 
 .story-item {
   text-align: left;
+  border: none;
 }
 
 .story-logo {
@@ -1030,6 +1034,45 @@ a:hover {
   height: 24px;
   background: url("../images/check-icon.png") no-repeat center;
   background-size: contain;
+}
+
+.customer-stories .container {
+  position: relative;
+}
+
+.sort-control {
+  position: absolute;
+  top: 100px;          
+  right: 40px;          
+  z-index: 10;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.sort-control label {
+  color: #050038;
+  font-weight: 500;
+}
+.sort-control select {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  background: #f9f9f9;
+  transition: background 0.2s, border-color 0.2s;
+}
+.sort-control select:hover,
+.sort-control select:focus {
+  background: #fff;
+  border-color: #4262ff;
 }
 
 

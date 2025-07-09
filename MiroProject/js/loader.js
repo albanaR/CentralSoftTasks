@@ -3,21 +3,14 @@ const exercises = [
     'exercise1-popup',
     'exercise2-spinner',
     'exercise3-formValidation',
-    'exercise4-slider'
-    // …etc
+    'exercise4-slider',
+    'exercise5-companyInfo',
+    'exercise6-sortTestimonials'
   ];
   
   Promise.all(
     exercises.map(name => import(`./${name}.js`))
   ).then(() => {
-    // all modules are loaded; you can even kick off initialization here
     console.log('All exercise scripts loaded');
   });
   
-// // loader.js
-// console.log('🛠️ loader.js loaded');
-
-// import './exercise1-popup.js';
-// import './exercise2-spinner.js'
-// import './exercise3-formValidation.js'
-// console.log('Popup module loaded');

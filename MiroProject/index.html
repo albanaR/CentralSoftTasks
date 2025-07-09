@@ -251,60 +251,22 @@
       <h2>Loved by the world’s best teams</h2>
       <a href="#" class="btn-outline">See all customer stories →</a>
   
+      <!-- sort control -->
+      <div class="sort-control">
+        <label for="sortOrder">Sort testimonials:</label>
+        <select id="sortOrder">
+          <option value="none" selected>Default order</option>
+          <option value="asc">A → Z</option>
+          <option value="desc">Z → A</option>
+        </select>
+      </div>
+  
       <div class="stories-grid">
-        <!-- Story #1 -->
-        <div class="story-item">
-          <div class="story-logo">
-            <img src="images/vmware-logo.png" alt="VMware">
-          </div>
-          <blockquote>
-            “When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”
-          </blockquote>
-          <div class="story-author">
-            <img src="images/roxanne.png" alt="Roxanne Mustafa">
-            <div class="author-info">
-              <span class="author-name">Roxanne Mustafa</span>
-              <span class="author-role">Design Team Lead at VMware</span>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Story #2 -->
-        <div class="story-item">
-          <div class="story-logo">
-            <img src="images/docuSign.png" alt="DocuSign">
-          </div>
-          <blockquote>
-            “Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”
-          </blockquote>
-          <div class="story-author">
-            <img src="images/jane.png" alt="Jane Ashley">
-            <div class="author-info">
-              <span class="author-name">Jane Ashley</span>
-              <span class="author-role">Head of Design at DocuSign</span>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Story #3 -->
-        <div class="story-item">
-          <div class="story-logo">
-            <img src="images/frogLogo.png" alt="frog">
-          </div>
-          <blockquote>
-            “As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”
-          </blockquote>
-          <div class="story-author">
-            <img src="images/laura.png" alt="Laura Baird">
-            <div class="author-info">
-              <span class="author-name">Laura Baird</span>
-              <span class="author-role">Associate Design Director at frog</span>
-            </div>
-          </div>
-        </div>
+        <!-- will be injected by JS -->
       </div>
     </div>
-  </section>  
+  </section>
+  
 
   <!--  Join Call‑to‑Action  -->
   <section class="join-cta">
@@ -419,6 +381,16 @@
       </div>
     </div>
   </footer> 
+
+  <!-- Company Info Modal -->
+  <div id="company-modal" class="company-modal hidden">
+    <div class="company-modal-content">
+      <span id="modal-close" class="modal-close">&times;</span>
+      <img id="modal-image" src="" alt="Company logo">
+      <h3 id="modal-name"></h3>
+      <p id="modal-description"></p>
+    </div>
+  </div>
 
   <script type="module" src="js/loader.js" defer></script> 
 </body>
